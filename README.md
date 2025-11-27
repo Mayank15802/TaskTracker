@@ -10,7 +10,12 @@ I built this project to demonstrate the power of Vanilla JavaScript in creating 
 
 Whether you are tracking your daily calorie intake, organizing study schedules, or simply ensuring you don't forget to buy groceries, this Task Tracker is your digital companion. It features a persistent storage system, meaning your data is safe even if you accidentally close the browser tab.
 
-✨ Key Features
+*you can add things*
+<img width="816" height="451" alt="Screenshot 2025-11-27 210527" src="https://github.com/user-attachments/assets/36dba1cf-90fc-4e11-be67-34a503c392ca" />
+
+*Delete option*
+<img width="775" height="381" alt="Screenshot 2025-11-27 210559" src="https://github.com/user-attachments/assets/54f156be-9b74-4da8-8946-9c1cbaa72a8b" />
+✨ Key Features 
 
 Here is what makes this Task Tracker special:
 
