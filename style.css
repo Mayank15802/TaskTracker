@@ -1,0 +1,119 @@
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial;
+  display: flex;
+  justify-content: center;
+  padding: 40px 12px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* app card */
+.app {
+  width: 100%;
+  max-width: 520px;
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 8px 30px rgba(0,0,0,0.15);
+}
+
+
+h1, .task-text, button {
+  color: #171614; 
+}
+
+/* heading */
+h1 {
+  margin: 0 0 12px 0;
+  text-transform: lowercase;
+  font-size: 1.5rem;
+  letter-spacing: 0.6px;
+}
+
+/* input row */
+.input-row {
+  display: flex;
+  gap: 10px;
+  margin-bottom: 14px;
+}
+
+input[type="text"]{
+  flex: 1;
+  padding: 10px 12px;
+  border-radius: 8px;
+  border: 1px solid #d0d0d0;
+  font-size: 15px;
+  outline: none;
+}
+
+/* Add button */
+button#addBtn {
+  padding: 10px 14px;
+  border-radius: 8px;
+  border: none;
+  cursor: pointer;
+  background: #e6e6e6; 
+  font-weight: 600;
+}
+
+/* tasks list */
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+/* each task row */
+li.task-item {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background: #fafafa;
+  border: 1px solid #e8e8e8;
+}
+
+/* task text (clickable to toggle) */
+.task-text {
+  flex: 1;
+  font-size: 15px;
+  user-select: none;
+}
+
+/* completed style */
+.task-item.completed .task-text {
+  text-decoration: line-through;
+  opacity: 0.6;
+}
+
+/* checkbox visible and larger */
+input[type="checkbox"] {
+  width: 20px;
+  height: 20px;
+  margin: 0;
+  cursor: pointer;
+  accent-color: #171614; /* checkbox color when checked */
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid rgba(0,0,0,0.15);
+}
+
+/* delete button */
+.delete-btn {
+  background: #ff6b6b;
+  color: white;
+  border: none;
+  padding: 6px 10px;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 13px;
+}
+
+/* small responsive */
+@media (max-width:420px) {
+  .app { padding: 16px; }
+  input[type="text"] { font-size: 14px; }
+}
